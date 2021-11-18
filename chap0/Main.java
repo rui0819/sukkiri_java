@@ -1,5 +1,6 @@
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("–©‚­‚ñI");
+		System.out.println("ã™ãŒã‚ã‚‰");
+		System.out.println("31æ­³ã§ã™ã€‚");
 	}
 }
