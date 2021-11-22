@@ -1,15 +1,15 @@
 public class Main02 {
   public static void main(String[] args) {
-    int hun = 0;
-    boolean doorClose = true;
-    while (doorClose == true) {
+    System.out.print(">");
+    String ok = new java.util.Scanner(System.in).nextLine();
+
+    while (ok.equals("no")) {
       System.out.println("ノックする");
+      System.out.print(">");
+      ok = new java.util.Scanner(System.in).nextLine();
       System.out.println("1分待つ");
-      hun++;
-      if (hun > 9) {
-        break;
-      }
-      System.out.println("トイレが空きました");
     }
+
+    System.out.println("トイレが空きました");
   }
 }
