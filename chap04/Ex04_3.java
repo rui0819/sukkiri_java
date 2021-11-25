@@ -1,0 +1,10 @@
+public class Ex04_3 {
+  public static void main(String[] args) {
+    int[] counts = null;
+    float[] heights = { 117.3F, 175.0F };
+    System.out.println(counts[1]);
+    System.out.println(heights[2]);
+    // NullPointerException[1]
+    // ArraylndexOutOfBoundsException[2]
+  }
+}
